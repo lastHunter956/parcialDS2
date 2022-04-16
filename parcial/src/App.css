@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+/* Barra de navegacion */
+.nav-bar-utb {
+  background-color: #153a6c;
+  color:white;
+}
+.nav-utb{
+  color: #153a6c;
+}
+
+#color-text{
+  color: #fdf4f4;
+  font-size: 30px;
+}
+
+#logo-utb{
+  height: 60px;
+}
