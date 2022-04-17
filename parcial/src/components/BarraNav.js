@@ -11,7 +11,7 @@ export default function BarraNav() {
         <Container>
           <Navbar.Brand href="#"><img src={utb} id="logo-utb" /></Navbar.Brand>
           <Nav>
-            <Nav.Link href="#" id="color-text" >Inicio</Nav.Link>
+            <Nav.Link href="./Contenido" id="color-text" >Inicio</Nav.Link>
             <Nav.Link href="#" id="color-text">Proyectos</Nav.Link>
             <Nav.Link href="#" id="color-text">Propuestas</Nav.Link>
             <Nav.Link href="#" id="color-text">Donaciones</Nav.Link>
