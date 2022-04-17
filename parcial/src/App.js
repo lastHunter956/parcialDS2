@@ -6,7 +6,7 @@ import BarraNav from './components/BarraNav.js';
 import Contenido from './components/Contenido.js';
 import FooterUtb from './components/FooterUtb.js';
 import Donaciones from './Donaciones.js';
-
+//<Contenido />
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route path="/" exact component={Contenido} />
         <Route path="/Donaciones" component={Donaciones} />
       </Router>
-      <Contenido />
+      
       <FooterUtb />
     </div>
   );

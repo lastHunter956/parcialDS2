@@ -8,13 +8,14 @@ import LogoTwitter from "../iconos/twitter.svg";
 import LogoYoutube from "../iconos/youtube.svg";
 import LogoFacebook from "../iconos/facebook-app-symbol.svg";
 import LogoLinkedin from "../iconos/logotipo-de-linkedin.svg";
+import styles from "./FooterUtb.module.css";
 
 
 export default function FooterUtb() {
     return (
-        <footer className="footer-utb">
+        <footer className={styles.footer_utb}>
             <Container>
-                <section className="section-footer ">
+                <section className={styles.section_footer}>
                     <img src={Logo} id="footer-logo-utb" />
 
                     <p>
@@ -28,14 +29,14 @@ export default function FooterUtb() {
                         Jurídica a la Universidad Tecnológica de Bolívar
                     </p>
                     <ul className="social-icons">
-                        <li className="icon"><a href="#"><img src={LogoLinkedin} alt="Logo de Instagram" className="icon-logo"></img></a></li>
-                        <li className="icon"><a href="#"><img src={LogoTwitter} alt="Logo de Instagram" className="icon-logo"></img></a></li>
-                        <li className="icon"><a href="#"><img src={LogoInstagram} alt="Logo de Instagram" className="icon-logo"></img></a></li>
-                        <li className="icon"><a href="#"><img src={LogoFacebook} alt="Logo de Instagram" className="icon-logo"></img></a></li>
-                        <li className="icon"><a href="#"><img src={LogoYoutube} alt="Logo de Instagram" className="icon-logo"></img></a></li>
+                        <li className={styles.icon}><a href="#"><img src={LogoLinkedin} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
+                        <li className={styles.icon}><a href="#"><img src={LogoTwitter} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
+                        <li className={styles.icon}><a href="#"><img src={LogoInstagram} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
+                        <li className={styles.icon}><a href="#"><img src={LogoFacebook} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
+                        <li className={styles.icon}><a href="#"><img src={LogoYoutube} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
                     </ul>
                 </section>
-                <section className="section-footer-2">
+                <section className={styles.section_footer_2}>
                     <h6>Donde estamos</h6>
                     <hr />
                     <h6>Campus tecnologico</h6>
@@ -60,7 +61,7 @@ export default function FooterUtb() {
                     </p>
                     <p><b>Bogotá- Colombia</b></p>
                 </section>
-                <section className="section-footer-3">
+                <section className={styles.section_footer_3}>
                     <h6>Programas y servicios </h6>
                     <hr />
                     <p><b>Pregrados</b></p>
@@ -70,7 +71,7 @@ export default function FooterUtb() {
                     <p><b>Inscripciones y Admisiones</b></p>
                     <p><b>Apoyo Financiero </b></p>
                 </section>
-                <section className="section-footer-4">
+                <section className={styles.section_footer_4}>
                     <h6>Institucional</h6>
                     <hr />
                     <p><b>Derechos pecuniarios </b></p>
@@ -79,7 +80,7 @@ export default function FooterUtb() {
                     <p><b>Reglamentos</b></p>
                     <p><b>Política de tratamiento de datos</b></p>
                 </section>
-                <section className="section-footer-5">
+                <section className={styles.section_footer_5}>
                     <h6>servicios Web</h6>
                     <hr />
                     <p><b>Banner</b></p>
@@ -89,7 +90,7 @@ export default function FooterUtb() {
                     <p><b>Come DoReTIC</b></p>
                     <p><b>Calidad Online</b></p>
                 </section>
-                <section className="section-footer-6">
+                <section className={styles.section_footer_6}>
                     <h6>Contacto</h6>
                     <hr />
                     <p>

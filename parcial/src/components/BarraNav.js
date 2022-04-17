@@ -10,7 +10,7 @@ export default function BarraNav() {
     <div>
       <Navbar className={styles.principal} variant="dark">
         <Container>
-          <Navbar.Brand href="#"><img src={utb} id="logo-utb" /></Navbar.Brand>
+          <Navbar.Brand href="#"><img src={utb} className={styles.logo_utb} /></Navbar.Brand>
           <Nav>
 
             <Nav.Link className={styles.principal} href="/" id="color-text" >Inicio</Nav.Link>

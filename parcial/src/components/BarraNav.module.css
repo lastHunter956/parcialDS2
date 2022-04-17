@@ -2,14 +2,12 @@
 .principal{
     background-color: #153a6c;
     color:white;
-}
-.lu{
-    padding: auto;
+    /*height: 60px !important;*/
     
 }
 
 /* other*/
-.nav-utb{
+.nav_utb{
     color: #153a6c;
 }
   
@@ -18,7 +16,7 @@
     /* font-size: 30px; */
 }
   
-#logo-utb{
+.logo_utb{
     height: 60px;
 }
   
