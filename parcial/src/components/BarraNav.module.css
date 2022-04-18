@@ -1,12 +1,15 @@
+/* Barra de navegacion */
 .principal {
     background-color: #153a6c;
     color: white;
+    /*height: 60px !important;*/
 }
 
-.nav-utb {
+/* other */
+.nav_utb {
     color: #153a6c;
 }
 
-#logo-utb {
+.logo_utb {
     height: 60px;
 }

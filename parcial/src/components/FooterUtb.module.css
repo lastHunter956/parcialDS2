@@ -1,15 +1,17 @@
-#footer-logo-utb {
-    width: 260px;
-}
 
-.footer-utb {
+/* Footer */
+#footer_logo_utb{
+    width: 260px;
+  }
+  
+.footer_utb{
     padding-top: 70px;
     height: 100vh;
     background-color: #153a6c;
-    color: white;
+    color:white;
 }
-
-.section-footer {
+  
+.section_footer  {
     text-align: justify;
     font-size: 10px;
     min-height: 100%;
@@ -17,9 +19,9 @@
     float: left;
     margin-right: 25px;
 }
-
-.section-footer-2 {
-
+  
+.section_footer_2 {
+  
     text-align: justify;
     font-size: 10px;
     height: 100%;
@@ -27,9 +29,9 @@
     float: left;
     margin-right: 25px;
 }
-
-.section-footer-3 {
-
+  
+.section_footer_3 {
+  
     text-align: justify;
     font-size: 10px;
     height: 100%;
@@ -37,9 +39,8 @@
     float: left;
     margin-right: 25px;
 }
-
-.section-footer-4 {
-
+.section_footer_4 {
+  
     text-align: justify;
     font-size: 10px;
     height: 100%;
@@ -47,9 +48,8 @@
     float: left;
     margin-right: 25px;
 }
-
-.section-footer-5 {
-
+.section_footer_5 {
+  
     text-align: justify;
     font-size: 10px;
     height: 100%;
@@ -57,30 +57,29 @@
     float: left;
     margin-right: 25px;
 }
-
-.section-footer-6 {
-
+.section_footer_6 {
+  
     text-align: justify;
     font-size: 10px;
     height: 100%;
     width: 200px;
     float: left;
 }
-
-
-/* Footer iconos de redes */
-ul li {
+  
+  
+  /* Footer iconos de redes */
+ul li{
     list-style: none;
     float: left;
     padding-left: 0px;
     margin-left: 0px;
 }
-
-.icon-logo {
+  
+.icon_logo {
     height: 20px;
     width: 20px;
 }
-
+  
 .icon {
     width: 30px;
     height: 30px;
