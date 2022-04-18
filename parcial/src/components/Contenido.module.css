@@ -1,0 +1,18 @@
+#color-text {
+    color: #fdf4f4;
+    /* font-size: 30px; */
+}
+
+
+#Personas-inicio {
+    height: calc(100vh - 86px);
+    width: calc(100vw - 15px);
+    object-fit: cover;
+    /* width: 100vw; */
+}
+
+#contenido-1 {
+    min-height: 90vh;
+    font-size: 33px;
+    color: #6b5c7a;
+}

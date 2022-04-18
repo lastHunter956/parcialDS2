@@ -1,7 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, Container} from "react-bootstrap";
-import "../App.css"
+// import "../App.css"
+import styles from "./BarraNav.module.css";
 import utb from "../iconos/utb-logotipo-blanco.png";
 
 export default function BarraNav() {
