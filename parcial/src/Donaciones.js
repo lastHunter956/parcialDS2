@@ -31,20 +31,18 @@ export default function Donaciones() {
 
           </div>
           <div className="lista_donar">
-          <ul>• selecciona la cantidad.
-              </ul>
-              <ul>• Selecciona método de pago.
-              </ul>
-              <ul>• Ingrese la iniciativa.
-              </ul>
-              <ul>• Envié su donación.
-              </ul>
-              <ul>• Imprima recibo de pago.</ul>
+            <ul>• selecciona la cantidad.
+            </ul>
+            <ul>• Selecciona método de pago.
+            </ul>
+            <ul>• Ingrese la iniciativa.
+            </ul>
+            <ul>• Envié su donación.
+            </ul>
+            <ul>• Imprima recibo de pago.</ul>
 
           </div>
-          <div>
-            <Pagos />
-          </div>
+          <Pagos />
         </div>
       </Fragment>
 

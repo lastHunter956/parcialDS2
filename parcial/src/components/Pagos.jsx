@@ -12,7 +12,7 @@ export default function Pagos() {
       <CardMedia
         component="img"
         height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
+        image="https://www.laguiademonteria.co/wp-content/uploads/2015/12/uso-carruso.jpg"
         alt="green iguana"
       />
       <CardContent>
