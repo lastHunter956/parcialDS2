@@ -4,11 +4,19 @@ import './App.css';
 import BarraNav from './components/BarraNav.js';
 import Contenido from './components/Contenido.js';
 import FooterUtb from './components/FooterUtb.js';
+import Proyectos from './Proyectos.js';
 
 function App() {
   return (
     <div>
+      <Router>
+        <BarraNav />
+        <Route path="/" exact component={Contenido} />
+        <Route path="/Proyectos" component={Proyectos} />
+      </Router>
+
       <BarraNav />
+
       <Contenido />
       <FooterUtb />
     </div>
