@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Pagos from './components/Pagos.jsx'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Personas from './imagenes/img_center_donacion.png';
 import './Donaciones.css';
@@ -42,7 +43,7 @@ export default function Donaciones() {
 
           </div>
           <div>
-            
+            <Pagos />
           </div>
         </div>
       </Fragment>
