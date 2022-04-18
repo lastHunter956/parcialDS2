@@ -3,7 +3,6 @@
     background-color: #153a6c;
     color:white;
 
-    /*height: 60px !important;*/
     
 }
 
@@ -14,11 +13,11 @@
   
 #color-text{
     color: #fdf4f4;
-    /* font-size: 30px; */
 }
   
 .logo_utb{
     height: 60px;
+    align-items: center;
 }
   
 #Personas-inicio{
