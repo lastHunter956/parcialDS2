@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import BarraNav from './components/BarraNav.js';
@@ -14,10 +15,6 @@ function App() {
         <Route path="/" exact component={Contenido} />
         <Route path="/Proyectos" component={Proyectos} />
       </Router>
-
-      <BarraNav />
-
-      <Contenido />
       <FooterUtb />
     </div>
   );
