@@ -48,7 +48,12 @@ export default function Donaciones() {
               <from1 />
             </div>
           </div>
-          <Controlado />
+          <div className="row" aria-label="Default select example">
+            <Container>
+              <Controlado />
+            </Container>
+          </div>
+
         </div>
       </Fragment>
 
