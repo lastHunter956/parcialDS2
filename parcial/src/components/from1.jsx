@@ -1,42 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Formik, Field, Form } from 'formik';
+import React from 'react'
+import "bootstrap/dist/css/bootstrap.min.css";
 
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+function Seleccion() {
+  return (
+    <div>
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+  )
+}
+export default Seleccion;
 
-const Example = () => (
-  <div>
-    <h1>Sign Up</h1>
-    <Formik
-      initialValues={{
-        firstName: '',
-        lastName: '',
-        email: '',
-      }}
-      onSubmit={async (values) => {
-        await sleep(500);
-        alert(JSON.stringify(values, null, 2));
-      }}
-    >
-      {({ isSubmitting }) => (
-        <Form>
-          <label htmlFor="firstName">First Name</label>
-          <Field name="firstName" placeholder="Jane" />
-
-          <label htmlFor="lastName">Last Name</label>
-          <Field name="lastName" placeholder="Doe" />
-
-          <label htmlFor="email">Email</label>
-          <Field name="email" placeholder="jane@acme.com" type="email" />
-
-          <button type="submit" disabled={isSubmitting}>
-            Submit
-          </button>
-        </Form>
-      )}
-    </Formik>
-  </div>
-);
-
-ReactDOM.render(<Example />, document.getElementById('root'));
-export default Example;
+function Terminos({ history }) {
+  return (
+    <div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate"></input>
+          <label class="form-check-label" for="flexCheckIndeterminate">
+            Indeterminate checkbox
+          </label>
+      </div>
+    </div>
+  )
+}
+export Terminos;
