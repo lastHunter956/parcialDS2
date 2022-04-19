@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Pagos from './components/Pagos.jsx'
+import from1 from './components/from1.jsx'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Personas from './imagenes/img_center_donacion.png';
 import './Donaciones.css';
@@ -42,7 +42,12 @@ export default function Donaciones() {
             <ul>• Imprima recibo de pago.</ul>
 
           </div>
-          <Pagos />
+          <div className="row">
+            <div className="col">
+              <from1 />
+            </div>
+          </div>
+          <from1 />
         </div>
       </Fragment>
 
