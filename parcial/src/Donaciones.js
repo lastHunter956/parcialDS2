@@ -3,6 +3,7 @@ import from1 from './components/from1.jsx'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Personas from './imagenes/img_center_donacion.png';
 import './Donaciones.css';
+import Controlado from "./components/checkoutForm/Controlado.jsx";
 import { Container } from 'react-bootstrap';
 export default function Donaciones() {
   return (
@@ -47,7 +48,7 @@ export default function Donaciones() {
               <from1 />
             </div>
           </div>
-          <from1 />
+          <Controlado />
         </div>
       </Fragment>
 

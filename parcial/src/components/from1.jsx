@@ -1,7 +1,7 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function Seleccion() {
+function from1() {
   return (
     <div>
       <select class="form-select" aria-label="Default select example">
@@ -11,20 +11,8 @@ function Seleccion() {
         <option value="3">Three</option>
       </select>
     </div>
-  )
+  );
 }
-export default Seleccion;
+export default from1;
 
-function Terminos({ history }) {
-  return (
-    <div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate"></input>
-          <label class="form-check-label" for="flexCheckIndeterminate">
-            Indeterminate checkbox
-          </label>
-      </div>
-    </div>
-  )
-}
-export Terminos;
+
