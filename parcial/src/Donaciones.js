@@ -1,4 +1,6 @@
 import React, { Fragment } from 'react'
+import { LoginButton } from "./components/seccion/login";
+import { Auth0Provider } from '@auth0/auth0-react';
 import from1 from './components/from1.jsx'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Personas from './imagenes/img_center_donacion.png';
@@ -54,6 +56,9 @@ export default function Donaciones() {
             </Container>
           </div>
 
+        </div>
+        <div>
+        <LoginButton />
         </div>
       </Fragment>
 
