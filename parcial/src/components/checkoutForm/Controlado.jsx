@@ -36,4 +36,12 @@ function Controlado() {
   )
 }
 export default Controlado;
-
+//controldo es para el formulario de donaciones
+//para que se pueda hacer el formulario de donaciones
+//se debe importar el componente de formulario de donaciones
+//y se debe importar el componente de checkoutForm
+//para que se pueda hacer el checkoutForm
+//se debe importar el componente de checkoutForm
+//se debe importar el componente de controlado
+//para que se pueda hacer el controlado
+//se debe importar el componente de controlado
