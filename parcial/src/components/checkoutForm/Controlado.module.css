@@ -1,11 +1,91 @@
 .pestanas1 {
 
-    width: 1000px;
+    width: 100%;
     color: #000000;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    
 
 }
+.selecciona{
+    width: 90%;
+    color: #000000;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .form_label {
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #000000;
 }
+.boton_enviar_donacion{
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    color: #000000;
+    
+}
+.container1 {
+    height: 40vh;
+    margin-left: 12%;
+    margin-right: 12%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #F9C5B1;
+    border-radius: 3%;
+}
+.form_control{
+
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+.bloque_titulo{
+    height: 10vh;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5174A3;
+    color:#ffffff;
+    font-family: 'Roboto', bold;
+
+}
+
+/*
+    margin: 50%;
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    
+    display: flex;
+    justify-content: center;
+*/

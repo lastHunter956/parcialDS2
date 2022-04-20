@@ -48,7 +48,7 @@ export default function Donaciones() {
               <from1 />
             </div>
           </div>
-          <div className="row" aria-label="Default select example">
+          <div className="row" >
             <Container>
               <Controlado />
             </Container>

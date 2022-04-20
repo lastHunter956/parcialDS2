@@ -5,16 +5,33 @@ import style from "./Controlado.module.css";
 function Controlado() {
   return (
     <div>
-      <container className={style.container}>
-      <div class={style.pestanas1}>
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
+      <div className={style.bloque_principal}>
+        <div className={style.bloque_titulo}>
+          <h1>Has tu donacion</h1>
+        </div>
+        <container className={style.container1}>
+          <container className={style.container}>
+            <div class={style.pestanas1}>
+              <input type="int" class={style.form_control} id="cantidad_user" placeholder="Cantidad a contribuir"></input>
+            </div>
+            <div class={style.pestanas1}>
+              <select class={style.selecciona}>
+                <option selected>Sleccione método de pago</option>
+                <option value="1">SuperGiros</option>
+                <option value="2">Efecty</option>
+                <option value="3">Ganaya</option>
+              </select>
+            </div>
+            <div class={style.pestanas1}>
+              <input type="text" class={style.form_control} id="iniciativa_user" placeholder="Ingrese iniciativa para apoyarla"></input>
+            </div>
+            <div class={style.boton_enviar_donacion}>
+              <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+            </div>
+
+          </container>
+        </container>
       </div>
-      <div class={style.pestanas1}>
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      </container>
     </div>
   )
 }
