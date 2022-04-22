@@ -1,18 +1,21 @@
-import react from 'react';
-import { BrowserRouter as Router, Router } from 'react-router-d'
-import "bootstrap/dist/css/bootstrap.main.css"
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import BarraNav from './components/BarraNav.js';
+import Contenido from './components/Contenido.js';
 import Propuestas from './Propuestas.jsx';
 import FooterUtb from './components/FooterUtb.js';
+import Donaciones from './Donaciones.js';
+//<Contenido />
 
 function App() {
   return (
     <div>
       <Router>
         <BarraNav />
-        <Router path="/propuestas" components={Propuestas}/> 
-        <Propuestas />
+        <Route path="/Propuestas" component={Propuestas} />
+        <Route path="/Donaciones" component={Donaciones} />
       </Router>
       <FooterUtb />
     </div>
