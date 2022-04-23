@@ -15,12 +15,7 @@ function Controlado() {
               <input type="int" class={style.form_control} id="cantidad_user" placeholder="Cantidad a contribuir"></input>
             </div>
             <div class={style.pestanas1}>
-              <select class={style.selecciona}>
-                <option selected>Seleccione método de pago</option>
-                <option value="1">SuperGiros</option>
-                <option value="2">Efecty</option>
-                <option value="3">Ganaya</option>
-              </select>
+              <input type="int" class={style.form_control} id="correo de respaldo para la donacion" placeholder="correo de respaldo para la donacion"></input>
             </div>
             <div class={style.pestanas1}>
               <input type="text" class={style.form_control} id="iniciativa_user" placeholder="Ingrese iniciativa para apoyarla"></input>
