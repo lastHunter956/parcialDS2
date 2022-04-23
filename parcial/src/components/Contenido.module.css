@@ -16,6 +16,7 @@
     height: calc(100vh - 86px);
     width: 100%;
     object-fit: cover;
+    margin-top: 86px;
     /* width: calc(100vw - 15px); */
     /* width: 100vw; */
 }
