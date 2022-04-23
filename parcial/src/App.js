@@ -20,9 +20,10 @@ function App() {
         <Route path="/Proyectos" component={Proyectos} />
         <Route path="/Propuestas" component={Propuestas} />
         <Route path="/Donaciones" component={Donaciones} />
-      </Router>
-      
+        <Router path="/propuestas" components={Propuestas}/> 
+        <Propuestas />
       <FooterUtb />
+      </Router>
     </div>
   );
 }
