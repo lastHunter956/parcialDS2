@@ -16,7 +16,7 @@ export default function FooterUtb() {
         <footer className={styles.footer_utb}>
             <Container>
                 <section className={styles.section_footer}>
-                    <img src={Logo} id="footer-logo-utb" />
+                    <img src={Logo} id={styles.footer_logo_utb} />
 
                     <p>
                         Universidad Tecnológica de Bolívar – 2017 Institución de

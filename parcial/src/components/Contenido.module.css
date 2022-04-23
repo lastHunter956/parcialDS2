@@ -1,0 +1,147 @@
+/* * {
+    color: #6b5c7a;
+} */
+
+#color_text {
+    color: #fdf4f4;
+    /* font-size: 30px; */
+}
+
+#Personas_inicio {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255)), url(../imagenes/personas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: calc(100vh - 86px);
+    width: 100%;
+    object-fit: cover;
+    margin-top: 86px;
+    /* width: calc(100vw - 15px); */
+    /* width: 100vw; */
+}
+
+#link_inicio {
+    text-decoration: none;
+}
+
+#Titulos_inicio {
+    text-align: center;
+    line-height: 120VH;
+    height: 60vh;
+    color: #6b5c7a;
+}
+
+#flecha_inicio {
+    /* position: absolute; */
+    /* text-align: center; */
+    padding-left: 47vw;
+    height: 80px;
+    /* top: 10px; */
+    /* z-index: 1; */
+}
+
+#contenido_1 {
+    min-height: 90vh;
+    font-size: 33px;
+    color: #6b5c7a;
+}
+
+#nuestro_equipo {
+    float: left;
+    width: 40vw;
+    min-height: auto;
+    /* background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255)), url(../imagenes/equipo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1; 
+    height: calc(100vh - 86px);
+    width: 100%;
+    object-fit: cover;
+    /* width: calc(100vw - 15px); */
+    /*width: 100vw; */
+}
+
+#nuestro_equipo_titulo {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    background-color: #5075a3;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+#nuestro_equipo_parrafo {
+    color: #6b5c7a;
+    background: linear-gradient(rgba(164, 185, 212, 255), rgba(255, 255, 255, 0));
+    min-height: 80vh;
+    font-size: 33px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#nuestro_equipo_img {
+    background: url(../imagenes/image-asuntos-profesorales.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: calc(80vh + 76px);
+    width: calc(60vw - 15px);
+
+    margin-left: 40vw;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#empresas_asociadas {
+    margin-left: calc(60vw - 15px);
+    width: 40vw;
+    min-height: auto;
+}
+
+#empresas_asociadas_titulo {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    background-color: #5075a3;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+#empresas_asociadas_parrafo {
+    color: #6b5c7a;
+    background: linear-gradient(rgba(255, 255, 255, 0.699), rgb(164, 185, 212));
+    min-height: calc(80vh + 16px);
+    font-size: 33px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+#empresas_asociadas_img {
+    float: left;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.486)), url(../imagenes/asociadas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: calc(80vh + 76px);
+    width: calc(60vw - 15px);
+
+}
+
+#nuestro_trabajo_titulo {
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    background-color: #153b6d;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    box-shadow: 0px 20px 50px #000000cc;
+}

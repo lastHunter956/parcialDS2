@@ -5,8 +5,11 @@ import './App.css';
 import BarraNav from './components/BarraNav.js';
 import Contenido from './components/Contenido.js';
 import FooterUtb from './components/FooterUtb.js';
+import Propuestas from './Propuestas.jsx';
+import Proyectos from './Proyectos.js';
 import Donaciones from './Donaciones.js';
 //<Contenido />
+
 
 function App() {
   return (
@@ -14,6 +17,8 @@ function App() {
       <Router>
         <BarraNav />
         <Route path="/" exact component={Contenido} />
+        <Route path="/Proyectos" component={Proyectos} />
+        <Route path="/Propuestas" component={Propuestas} />
         <Route path="/Donaciones" component={Donaciones} />
       </Router>
       
