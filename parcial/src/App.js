@@ -24,7 +24,6 @@ function App() {
         <Route path="/Propuestas" component={Propuestas} />
         <Route path="/Donaciones" component={Donaciones} />
         <Router path="/propuestas" components={Propuestas}/> 
-        <Propuestas />
       </Router>
       <FooterUtb />
     </div>
