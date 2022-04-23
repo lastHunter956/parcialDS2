@@ -1,12 +1,11 @@
-
 /* Footer */
-#footer-logo-utb{
+#footer_logo_utb{
     width: 260px;
-  }
-  
+}
+
 .footer_utb{
     padding-top: 70px;
-    height: 100vh;
+    height: 700px;
     background-color: #153a6c;
     color:white;
 }
@@ -89,11 +88,4 @@ ul li{
     background: #ffffff;
     color: #fdf4f4;
     margin-right: 12px;
-}
-  /********************************************************/
-  
-.list-footer-utb{
-    list-style: none;
-    padding-left: 0px;
-    margin-left: 0px;
 }

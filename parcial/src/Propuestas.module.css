@@ -1,3 +1,7 @@
+#div_86px {
+    height: 86px;
+}
+
 .texto {
     text-align: justify;
     padding-top: 15px;
@@ -41,5 +45,3 @@
     background-color: #5174A3;
     border-radius: 15px;
 }
-
-

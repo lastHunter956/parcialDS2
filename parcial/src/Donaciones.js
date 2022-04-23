@@ -1,16 +1,18 @@
 import React, { Fragment } from 'react'
-import Pagos from './components/Pagos.jsx'
+//import from1 from './components/from1.jsx'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Personas from './imagenes/img_center_donacion.png';
 import './Donaciones.css';
+import Controlado from "./components/checkoutForm/Controlado.jsx";
 import { Container } from 'react-bootstrap';
-
+import LoginButton from "./components/crearSeccion/login";
+import LogoutButton from "./components/crearSeccion/Logout";
+import Profile from "./components/crearSeccion/Profile";
 export default function Donaciones() {
   return (
     <div>
       <Fragment>
         <img src={Personas} class="img-fluid" ></img>
-
         <div className="primer_texto">
           <Container>
             <p id="parrafo_primer_texto">
@@ -28,10 +30,8 @@ export default function Donaciones() {
           </Container>
         </div>
         <div className="container_1">
-
           <div className="Donar">
             ¿Comó donar?
-
           </div>
           <div className="lista_donar">
             <ul>• selecciona la cantidad.
@@ -43,9 +43,30 @@ export default function Donaciones() {
             <ul>• Envié su donación.
             </ul>
             <ul>• Imprima recibo de pago.</ul>
-
           </div>
-          <Pagos />
+          <div className="row">
+            <div className="col">
+              <from1 />
+            </div>
+          </div>
+          <div className="col">
+            <div className="row" >
+              <Container>
+                <Controlado />
+              </Container>
+            </div>
+            <div className="contenedor_perfiles">
+              <div className="botones_user">
+                <LoginButton />
+              </div>
+              <div className="perfil_user">
+                <Profile />
+              </div>
+              <div className="botones_user" >
+                <LogoutButton />
+              </div>
+            </div>
+          </div>
         </div>
       </Fragment>
     </div>

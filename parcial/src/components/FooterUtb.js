@@ -10,14 +10,12 @@ import LogoFacebook from "../iconos/facebook-app-symbol.svg";
 import LogoLinkedin from "../iconos/logotipo-de-linkedin.svg";
 import styles from "./FooterUtb.module.css";
 
-
 export default function FooterUtb() {
     return (
         <footer className={styles.footer_utb}>
             <Container>
                 <section className={styles.section_footer}>
-                    <img src={Logo} id="footer-logo-utb" />
-
+                    <img src={Logo} id={styles.footer_logo_utb} />
                     <p>
                         Universidad Tecnológica de Bolívar – 2017 Institución de
                         Educación Superior sujeta a inspección y vigilancia por el
