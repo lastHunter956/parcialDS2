@@ -20,6 +20,10 @@
     /* width: 100vw; */
 }
 
+#link_inicio {
+    text-decoration: none;
+}
+
 #Titulos_inicio {
     text-align: center;
     line-height: 120VH;
@@ -32,7 +36,7 @@
     /* text-align: center; */
     padding-left: 47vw;
     height: 80px;
-    /* text-align: 1vh; */
+    /* top: 10px; */
     /* z-index: 1; */
 }
 
@@ -138,4 +142,5 @@
     background-color: #153b6d;
     color: #FFFFFF;
     margin-bottom: 30px;
+    box-shadow: 0px 20px 50px #000000cc;
 }

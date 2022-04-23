@@ -8,7 +8,7 @@ import utb from "../iconos/utb-logotipo-blanco.png";
 export default function BarraNav() {
   return (
     <div>
-      <Navbar className={styles.principal} variant="dark">
+      <Navbar className={styles.principal} variant="dark" fixed="top">
         <Container>
           <Navbar.Brand href="/"><img src={utb} className={styles.logo_utb} /></Navbar.Brand>
           <Nav>
