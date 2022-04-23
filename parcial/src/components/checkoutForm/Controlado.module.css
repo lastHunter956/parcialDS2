@@ -1,0 +1,103 @@
+.pestanas1 {
+    margin: auto;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.selecciona{
+    width: 90%;
+    color: #000000;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.form_control {
+    font-family: 'Roboto', sans-serif;
+    /*tamaño de letra*/
+    font-size: 70px;
+    color: #000000;
+}
+.boton_enviar_donacion{
+    width: 94%;
+    color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 3% 6% 70px #000000;
+}
+/*"btn btn-secondary btn-lg"*/
+.container {
+    width: 90%;
+    margin: auto;
+    
+    color: #000000;
+
+    
+}
+.container1 {/* container1: */
+    height: 55vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #F9C5B1;
+    border-radius: 8%;
+}
+.form_control{
+
+    width: 90%;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 5px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+.bloque_titulo{
+    height: 10vh;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5174A3;
+    color:#ffffff;
+    font-family: 'Roboto', black;
+
+}
+
+/*
+    margin: 50%;
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    
+    display: flex;
+    justify-content: center;
+*/
