@@ -1,35 +1,19 @@
 /* Barra de navegacion */
-.principal{
+.principal {
     background-color: #153a6c;
-    color:white;
-
-    
+    color: white;
+    /* position: fixed; */
+    /* width: 100vw; */
+    /*height: 60px !important;*/
 }
 
-/* other*/
-.nav_utb{
+/* other */
+.nav_utb {
+
+    /* position: fixed; */
     color: #153a6c;
 }
-  
-#color-text{
-    color: #fdf4f4;
-}
-  
-.logo_utb{
+
+.logo_utb {
     height: 60px;
-    align-items: center;
 }
-  
-#Personas-inicio{
-    height: calc(100vh - 86px);
-    width: calc(100vw - 15px);
-    object-fit: cover;
-    /* width: 100vw; */
-}
-  
-#contenido-1{
-    min-height: 90vh;
-    font-size: 33px;
-    color: #6b5c7a;
-}
-  
