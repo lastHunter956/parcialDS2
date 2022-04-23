@@ -16,6 +16,7 @@ export default function BarraNav() {
             <Nav.Link className={styles.principal} href="./Proyectos" id="color-text">Proyectos</Nav.Link>
             <Nav.Link className={styles.principal} href="./Propuestas" id="color-text">Propuestas</Nav.Link>
             <Nav.Link className={styles.principal} href="./Donaciones" id="color-text">Donaciones</Nav.Link>
+
           </Nav>
         </Container>
       </Navbar>

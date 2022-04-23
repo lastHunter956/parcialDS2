@@ -11,6 +11,7 @@ import Donaciones from './Donaciones.js';
 //<Contenido />
 
 
+
 function App() {
   return (
     <div>
@@ -22,8 +23,8 @@ function App() {
         <Route path="/Donaciones" component={Donaciones} />
         <Router path="/propuestas" components={Propuestas}/> 
         <Propuestas />
-      <FooterUtb />
       </Router>
+      <FooterUtb />
     </div>
   );
 }
