@@ -1,80 +1,109 @@
-import React from "react";
+import React, { Fragment } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
-import Container from "react-bootstrap/Container";
-import docentes from "../imagenes/image-perfil-docentes-5.jpg"
+import { Container } from "react-bootstrap";
+import styles from './Propuestas.module.css';
+import Docentes from "./imagenes/image-perfil-docentes-5.jpg";
 
 export default function Propuestas() {
     return (
         <div>
-            <img src={docentes} id="docentes" />
+            <Fragment>
+                <img src={Docentes} class="img-fluid" alt="personas"></img>
+                <Container>
+                    <h1 className={styles.primer_linea}>DEJA QUE NOS ENCANGEMOS</h1>
+                </Container>
+                <div className={styles.texto}>
 
-            <span class="">
-                <br />
-                <p class="text">DEJA QUE NOS ENCANGEMOS</p>
-            </span>
-
-            <div>
-                <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellat tempore sequi magnam harum necessitatibus, praesentium provident, distinctio repudiandae reprehenderit unde quasi a illum, accusamus quam nobis quibusdam libero eligendi?
-                </p>
-            </div>
-            <Container>
-                <form class="formulario">
-                    <div class="nombre">
-                        <input class="form-control" type="text" aria-label="Nombre del creador o empresa" placeholder="Nombre del creador o empresa" required></input>
-                    </div>
 
-                    <br />
-
-                    <div class="descripcion">
-                        <textarea class="form-control" id="descripcionP" rows="3" placeholder="Descripcion del proyecto" required></textarea>
-                    </div>
-
-                    <br />
-
-                    <div class="email">
-                        <input type="email" class="form-control" id="emaill" placeholder="name@example.com" required></input>
-                    </div>
-
-                    <br />
-
-                    <form class="formulario">
-                        <div class="mb-3">
-                            <label for="formFile" class="form-label">
-                                <b>Por favor, cargue una prueba de que pertenece a una entidad</b>
-                                <p>
-                                    Esta es una prueba que busca que las personas que solicitan un proyecto sean
-                                    personas reales con necesidades reales y no bots, asegúrese de que la foto sea
-                                    clara y muestre la información solicitada.
-                                </p>
-                            </label>
-                            <input class="form-control" type="file" id="formFile"></input>
-                        </div>
-                        
-                        <div class="select">
-                            <select class="form-label" aria-label="Default select example" required>
-                                <option selected>una opcion</option>
-                                <option value="1">suncuncuwncuanc</option>
-                                <option value="2">scjscjkacsnkascnsajcnas</option>
-                                <option value="3">csacjjnclacakscmlac</option>
-                            </select>
-                        </div>
+                </div>
+                <br />
+                <div className={styles.text2}>
+                    <p><b>Cuéntanos tu propuesta</b></p>
+                </div>
+                <br />
+                <Container>
+                    <form class={styles.formulario}>
+                        <Container>
+                            <br />
+                            <div class="accordion " id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="acorden1">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Persona
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <Container><div class={styles.persona1}>
+                                            <br />
+                                            <input type="" class="form-control" id="nombre" placeholder="Nombre Completo" required></input>
+                                            <br />
+                                            <input class="form-control" type="number" placeholder="Cedula" aria-label="default input example" required></input>
+                                            <br />
+                                            <div class={styles.descripcion}>
+                                                <textarea class="form-control" id="descripcionP" rows="3" placeholder="Descripcion del proyecto" required></textarea>
+                                            </div>
+                                            <br />
+                                            <div class={styles.email}>
+                                                <input type="email" class="form-control" id="emaill" placeholder="Correo" required></input>
+                                            </div>
+                                            <br />
+                                            <div class="marcar">
+                                                <input class="form-check-input" type="checkbox" value="" id="marcar_termi" required></input>
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    he leído todos los términos y condiciones de usuario.
+                                                </label>
+                                            </div>
+                                            <br />
+                                            <div class="Enviar" id="boton_enviar1">
+                                                <button type="submit" class="btn btn-primary">Enviar propuesta</button>
+                                            </div>
+                                            <br />
+                                        </div></Container>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Empresa
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <Container><div class={styles.persona1}>
+                                            <br />
+                                            <input type="" class="form-control" id="nombre" placeholder="Nombre Completo" required></input>
+                                            <br />
+                                            <input class="form-control" type="number" placeholder="Cedula" aria-label="default input example" required></input>
+                                            <br />
+                                            <div class={styles.descripcion}>
+                                                <textarea class="form-control" id="descripcionP" rows="3" placeholder="Descripcion del proyecto" required></textarea>
+                                            </div>
+                                            <br />
+                                            <div class={styles.email}>
+                                                <input type="email" class="form-control" id="emaill" placeholder="NIT" required></input>
+                                            </div>
+                                            <br />
+                                            <div class="marcar">
+                                                <input class="form-check-input" type="checkbox" value="" id="marcar_termi" required></input>
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    he leído todos los términos y condiciones de usuario.
+                                                </label>
+                                            </div>
+                                            <br />
+                                            <div class="Enviar">
+                                                <button type="submit" class="btn btn-primary mb-3">Enviar propuesta</button>
+                                            </div>
+                                        </div></Container>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                        </Container>
                     </form>
-
-                    <div class="marcar">
-                        <input class="form-check-input" type="checkbox" value="" id="marcar_termi" required></input>
-                        <label class="form-check-label" for="flexCheckDefault">
-                            he leído todos los términos y condiciones de usuario.
-                        </label>
-                    </div>
-
-                    <br />
-
-                    <div class="Enviar">
-                        <button type="submit" class="btn btn-primary mb-3">Enviar propuesta</button>
-                    </div>
-                </form>
-            </Container>
+                </Container>
+                <br />
+            </Fragment>
         </div>
-    );
+    )
 }
