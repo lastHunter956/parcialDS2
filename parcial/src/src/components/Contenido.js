@@ -51,6 +51,7 @@ export default function Contenido() {
                         lorem ipsum dolor sit amet, consectetur adipiscing elit. Et duis dolore reprehenderit eiusmod. Mollit dolor aliquip incididunt dolor aliquip eu voluptate ex. Ullamco exercitation laboris fugiat Lorem magna sunt aute ad. Deserunt sit fugiat elit velit non in est deserunt ad nulla cillum deserunt. Nulla labore velit esse adipisicing nostrud non amet dolore eu aute in elit ex laborum. Eiusmod laborum exercitation labore consectetur occaecat duis dolore qui incididunt laboris amet labore non veniam. Reprehenderit tempor deserunt eiusmod officia laborum id in Lorem non velit voluptate sunt laborum.
                     </p>
                 </div>
+                <div></div>
             </Container>
         </div >
     )

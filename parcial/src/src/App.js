@@ -15,7 +15,7 @@ function App() {
     <div>
       <Router>
         <BarraNav />
-        <Route path="/inicio" exact component={Contenido} />
+        <Route path="/" exact component={Contenido} />
         <Route path="/Proyectos" component={Proyectos} />
         <Route path="/Propuestas" component={Propuestas} />
         <Route path="/Donaciones" component={Donaciones} />
