@@ -15,10 +15,10 @@ function App() {
     <div>
       <Router>
         <BarraNav />
-        <Route path="/" exact component={Contenido} />
-        <Route path="/Proyectos" component={Proyectos} />
-        <Route path="/Propuestas" component={Propuestas} />
-        <Route path="/Donaciones" component={Donaciones} />
+        <Route path="./" exact component={Contenido} />
+        <Route path="./Proyectos" component={Proyectos} />
+        <Route path="./Propuestas" component={Propuestas} />
+        <Route path="./Donaciones" component={Donaciones} />
       </Router>
       
       <FooterUtb />
