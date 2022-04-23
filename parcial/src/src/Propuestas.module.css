@@ -1,0 +1,49 @@
+#div_86px {
+    height: 86px;
+}
+
+.texto {
+    text-align: justify;
+    padding-top: 15px;
+    padding-right: 60px;
+    padding-left: 60px;
+    min-height: 20vh;
+    font-size: 33px;
+    color: #000;
+}
+
+.primer_linea {
+
+    color: rgb(255, 255, 255);
+    height: 80px;
+    width: 600px;
+    line-height: 80px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #6B5C7A;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0px 4px 13px rgb(81, 79, 79);
+}
+
+.text2 {
+    color: #ffffff;
+    text-align: center;
+    height: 50px;
+    min-width: 20vh;
+    line-height: 50px;
+    font-size: 28px;
+    width: 400px;
+    text-align: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #6B5C7A;
+    box-shadow: 5px 7px 13px rgb(81, 79, 79);
+}
+
+.formulario{
+    background-color: #5174A3;
+    border-radius: 15px;
+}
+
+
