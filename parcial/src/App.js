@@ -8,11 +8,14 @@ import FooterUtb from './components/FooterUtb.js';
 import Propuestas from './Propuestas.jsx';
 import Proyectos from './Proyectos.js';
 import Donaciones from './Donaciones.js';
+//import './Seccion.js';
 //<Contenido />
       /*
       <div>
         <LoginButton />
         </div>
+
+<Router path="/Seccion" components={Seccion}/> 
       */
 function App() {
   return (
@@ -23,6 +26,7 @@ function App() {
         <Route path="/Proyectos" component={Proyectos} />
         <Route path="/Propuestas" component={Propuestas} />
         <Route path="/Donaciones" component={Donaciones} />
+        <Router path="/propuestas" components={Propuestas}/>
         <Router path="/propuestas" components={Propuestas}/> 
       </Router>
       <FooterUtb />
