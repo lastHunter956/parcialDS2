@@ -10,12 +10,16 @@ export default function Contenido() {
     return (
         <div>
             <div id={styles.Personas_inicio}>
-                <h1 id={styles.Titulos_inicio}>SE PARTE DE LA INNOVACIÓN</h1>
-                <img src={Flecha} id={styles.flecha_inicio} />
+                <a href="#contenido_texto" id={styles.link_inicio}>
+                    <h1 id={styles.Titulos_inicio}>SE PARTE DE LA INNOVACIÓN</h1>
+                </a>
+                <a href="#contenido_texto" id={styles.link_inicio}>
+                    <img src={Flecha} id={styles.flecha_inicio} />
+                </a>
             </div>
             <Container>
                 <div id={styles.contenido_1}>
-                    <p>
+                    <p id="contenido_texto">
                         lorem ipsum dolor sit amet, consectetur adipiscing elit. Et duis dolore reprehenderit eiusmod. Mollit dolor aliquip incididunt dolor aliquip eu voluptate ex. Ullamco exercitation laboris fugiat Lorem magna sunt aute ad. Deserunt sit fugiat elit velit non in est deserunt ad nulla cillum deserunt. Nulla labore velit esse adipisicing nostrud non amet dolore eu aute in elit ex laborum. Eiusmod laborum exercitation labore consectetur occaecat duis dolore qui incididunt laboris amet labore non veniam. Reprehenderit tempor deserunt eiusmod officia laborum id in Lorem non velit voluptate sunt laborum.
                     </p>
                     <p>
