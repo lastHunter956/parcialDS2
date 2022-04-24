@@ -5,9 +5,7 @@ import Personas from './imagenes/img_center_donacion.png';
 import './Donaciones.css';
 import Controlado from "./components/checkoutForm/Controlado.jsx";
 import { Container } from 'react-bootstrap';
-import LoginButton from "./components/crearSeccion/login";
-import LogoutButton from "./components/crearSeccion/Logout";
-import Profile from "./components/crearSeccion/Profile";
+
 export default function Donaciones() {
   return (
     <div>
@@ -59,24 +57,8 @@ export default function Donaciones() {
                 <Controlado />
               </Container>
             </div>
-            <div className="contenedor_perfiles">
-              <div className="botones_user">
-                <LoginButton />
-              </div>
-              <div className="perfil_user">
-                <Profile />
-              </div>
-              <div className="botones_user" >
-                <LogoutButton />
-              </div>
-            </div>
           </div>
-
-
-
-
         </div>
-
       </Fragment>
     </div>
   )
