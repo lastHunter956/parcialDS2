@@ -2,6 +2,10 @@
     height: 86px;
 }
 
+#img_inicio {
+    width: calc(100vw - 15px);
+}
+
 .texto {
     text-align: justify;
     padding-top: 15px;
