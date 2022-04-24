@@ -14,10 +14,15 @@ app.use('/resources', express.static('public'));
 app.use('/resources', express.static(__dirname+'/public'));
 //establecemos el motor de plantillas
 app.set('view engine', 'ejs');
+
 //invocamos a bcryptjs para encriptar las contraseñas
+
 const bcryptjs = require('bcryptjs');
 //variables de seccion
 const session = require('express-session');
+
+//invocamos al modulo de conexion de la base de datos
+const conection = require('./database/db');
 
 app.use(session({
     secret: 'secret',
