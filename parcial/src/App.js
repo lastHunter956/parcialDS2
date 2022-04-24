@@ -8,12 +8,8 @@ import FooterUtb from './components/FooterUtb.js';
 import Propuestas from './Propuestas.jsx';
 import Proyectos from './Proyectos.js';
 import Donaciones from './Donaciones.js';
-//<Contenido />
-      /*
-      <div>
-        <LoginButton />
-        </div>
-      */
+
+
 function App() {
   return (
     <div>
