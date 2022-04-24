@@ -68,7 +68,7 @@
   
   
   /* Footer iconos de redes */
-ul li{
+#ul_footer #li_footer {
     list-style: none;
     float: left;
     padding-left: 0px;

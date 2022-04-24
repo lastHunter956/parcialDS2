@@ -8,7 +8,8 @@ export default function Propuestas() {
     return (
         <div>
             <Fragment>
-                  <img src={Docentes} class="img-fluid" alt="personas"></img>
+                <div id={styles.div_86px}></div>
+                <img src={Docentes} class="img-fluid" alt="personas" id={styles.img_inicio}></img>
                 <Container>
                     <h1 className={styles.primer_linea}>DEJA QUE NOS ENCANGEMOS</h1>
                 </Container>

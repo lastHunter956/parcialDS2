@@ -28,12 +28,12 @@ export default function FooterUtb() {
                         la cual la Gobernación de Bolívar otorga la Personería
                         Jurídica a la Universidad Tecnológica de Bolívar
                     </p>
-                    <ul className="social-icons">
-                        <li className={styles.icon}><a href="#"><img src={LogoLinkedin} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
-                        <li className={styles.icon}><a href="#"><img src={LogoTwitter} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
-                        <li className={styles.icon}><a href="#"><img src={LogoInstagram} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
-                        <li className={styles.icon}><a href="#"><img src={LogoFacebook} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
-                        <li className={styles.icon}><a href="#"><img src={LogoYoutube} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
+                    <ul className="social-icons" id={styles.ul_footer}>
+                        <li className={styles.icon} id={styles.li_footer}><a href="#"><img src={LogoLinkedin} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
+                        <li className={styles.icon} id={styles.li_footer}><a href="#"><img src={LogoTwitter} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
+                        <li className={styles.icon} id={styles.li_footer}><a href="#"><img src={LogoInstagram} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
+                        <li className={styles.icon} id={styles.li_footer}><a href="#"><img src={LogoFacebook} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
+                        <li className={styles.icon} id={styles.li_footer}><a href="#"><img src={LogoYoutube} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
                     </ul>
                 </section>
                 <section className={styles.section_footer_2}>

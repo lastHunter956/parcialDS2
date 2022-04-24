@@ -1,0 +1,128 @@
+#contenido_texto {
+    font-size: 33px;
+    color: #6b5c7a;
+}
+
+#div_86px {
+    height: 86px;
+}
+
+#contenido_proyectos {
+    height: 100vh;
+}
+
+#foto_inicio {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255)), url(./imagenes/instituto-IDDEAS-nw.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: calc(100vh - 86px);
+    width: 100%;
+    object-fit: cover;
+}
+
+#Titulos_inicio {
+    text-align: center;
+    padding-top: 47VH;
+    height: 60vh;
+    color: #6b5c7a;
+}
+
+#flecha_inicio {
+    padding-left: 47vw;
+    height: 80px;
+}
+
+#link_inicio {
+    text-decoration: none;
+}
+
+#titulo_propuestas_publicadas {
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    background-color: #153b6d;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    box-shadow: 0px 20px 50px #000000cc;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#etapas_proyectos {
+    float: left;
+    width: 40vw;
+    min-height: auto;
+}
+
+#etapas_proyecto_titulo {
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    background-color: #6a5c7b;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+#etapas_proyecto_lista {
+    color: #6b5c7a;
+    background: linear-gradient(to bottom left,rgba(250,197,179,0.5), rgba(255, 255, 255, 0.5));
+    min-height: calc(80vh + 16px);
+    font-size: 33px;
+    line-height: 100px;
+    padding-top: 20px;
+    padding-left: 110px;
+    margin-bottom: 0px; 
+}
+
+#etapas_img {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255)), url(./imagenes/conoce-nuestros-programas-imagen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: calc(80vh + 76px);
+    width: calc(60vw - 18px);
+    margin-left: 40vw;
+}
+
+#etapas_img_img {
+    background: url(./imagenes/ordenes-de-cooperativas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 60vh;
+    width: 23vw;
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+#subtitulo_img {
+    min-height: 5vh;
+
+    width: 23vw;
+    font-size: 4vh;
+    text-align: justify;
+    line-height: 5vh;
+    background-color: #6a5c7b;
+    margin-left: 35%;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+#subtitulo2_img {
+    height: 75px;
+    width: 23vw;
+    text-align: center;
+    line-height: 75px;
+    background-color: #153b6d;
+    margin-left: 35%;
+    color: #FFFFFF;
+    padding-left: 10px;
+    float: left;
+}
+

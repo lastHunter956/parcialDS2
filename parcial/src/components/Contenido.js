@@ -9,6 +9,7 @@ import styles from "./Contenido.module.css";
 export default function Contenido() {
     return (
         <div>
+            <div id={styles.div_86px}></div>
             <div id={styles.Personas_inicio}>
                 <a href="#contenido_texto" id={styles.link_inicio}>
                     <h1 id={styles.Titulos_inicio}>SE PARTE DE LA INNOVACIÓN</h1>
