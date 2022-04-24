@@ -4,19 +4,19 @@ const conection = mysql.createConnection({//conexion a la base de datos
     host: 'localhost',//direccion del servidor
     user: 'root',//usuario de la base de datos
     password: '',//contraseña de la base de datos
-    database: 'parcial'//nombre de la base de datos a utilizar
+    database: 'parcialds'//nombre de la base de datos a utilizar
 });
 
 conection.connect( (err) => {//err es una variable que se puede usar para verificar si hay un error
     if (err) throw err
         console.log('Conexion a la base de datos establecida')
 })
-const insertar = "INSERT INTO adminitrador (nombre, apellido, correo, celular, clave) VALUES ('lucas', 'garcia', 'lgarcia@utb.edu.co', '3052204282', '157')";
+const insertar = "INSERT INTO usuarios (nombre, apellido, correo, celular, clave, rol) VALUES ('lucas', 'garcia', 'lgarcia@utb.edu.co', '3052204282', '157', 'administrador')";
 conection.query(insertar, (err, result) => {
     if (err) throw err
         console.log('Datos insertados')
 })
-conection.query('SELECT * FROM adminitrador', (err, result) => {//consulta a la base de datos
+conection.query('SELECT * FROM usuarios', (err, result) => {//consulta a la base de datos
     if (err) throw err
         console.log(`Los datos en la base de dato son: `)
         console.log(result)//result es un array con los datos 
