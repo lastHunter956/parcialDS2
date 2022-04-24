@@ -1,4 +1,3 @@
-import { Auth0Provider } from '@auth0/auth0-react';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -12,9 +11,8 @@ root.render(
   
   <React.StrictMode>
 
-    <Auth0Provider domain="lasthunter956.jp.auth0.com" clientId="2uZvYzojd0SJq0yQ6zgSYcqpjqAf4Q7M" redirectUri={window.location.origin}>
       <App />
-    </Auth0Provider>
+
   </React.StrictMode>
 );
 
