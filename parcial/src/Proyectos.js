@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Flecha from './iconos/flecha-hacia-abajo-para-navegar.png';
 import styles from "./Proyectos.module.css";
 import { Container } from 'react-bootstrap';
-import FlechaDerecha from './iconos/Flecha\ a\ la\ derecha.svg';
+import MultipleItems from "./components/carrusel/MultipleItems.js";
 
 export default function Proyectos() {
     return (
@@ -25,6 +25,10 @@ export default function Proyectos() {
                 </Container>
             </section>
             <h2 id={styles.titulo_propuestas_publicadas}>Propuestas publicadas</h2>
+            <div id={styles.slider_proyectos}>
+
+                    <MultipleItems />
+            </div>
             <section id={styles.etapas_proyectos}>
                 <h2 id={styles.etapas_proyecto_titulo}>Etapas de un proyecto</h2>
                 <ul id={styles.etapas_proyecto_lista}>

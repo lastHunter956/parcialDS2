@@ -43,7 +43,7 @@ export default function Donaciones() {
             </ul>
             <ul>• Envié su donación.
             </ul>
-            <ul>• Imprima recibo de pago.</ul>
+            <ul>• espere que un asesor se ponga en contacto con usted.</ul>
 
           </div>
           <div className="row">

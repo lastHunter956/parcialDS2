@@ -1,0 +1,47 @@
+#botones_div {
+    justify-content: center;
+    width: 100%;
+    
+}
+
+#boton_slider {
+    border-radius: 10px ;
+    appearance: none;
+    background-color: #f2737f;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 5px 15px #000000cc;
+}
+
+#fondo {
+    margin-top: 20px;
+    padding-top: 30px;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    color: #6a5c7b;
+}
+
+#contenido_slider {
+    text-align: center;
+    padding-top: 50px;
+    background-color: #f9c4b0;
+    border-radius: 10%;
+    box-shadow: 0px 20px 30px #000000cc;
+    height: 90%;
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+
+}
+
+#parrafo{
+    font-size: 13px;
+    width: 80%;
+    padding: 0 0 0 18%;
+}
