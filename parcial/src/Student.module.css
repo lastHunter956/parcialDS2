@@ -1,0 +1,37 @@
+#div_87px {
+    height: 87px;
+}
+
+#usuario{
+    width: 80px;
+}
+
+.Nombre{
+    text-align: left;
+    padding-top: 15px;
+    padding-right: 60px;
+    padding-left: 60px;
+    min-height: 20vh;
+    font-size: 33px;
+    color: #000;
+
+}
+
+.Codigo{
+    text-align: left;
+    padding-top: 15px;
+    padding-right: 60px;
+    padding-left: 60px;
+    min-height: 20vh;
+    font-size: 33px;
+    color: #000;
+}
+
+.section_footer  {
+    text-align: justify;
+    font-size: 10px;
+    min-height: 100%;
+    width: 250px;
+    float: left;
+    margin-right: 25px;
+}

@@ -10,14 +10,12 @@ import LogoFacebook from "../iconos/facebook-app-symbol.svg";
 import LogoLinkedin from "../iconos/logotipo-de-linkedin.svg";
 import styles from "./FooterUtb.module.css";
 
-
 export default function FooterUtb() {
     return (
         <footer className={styles.footer_utb}>
             <Container>
                 <section className={styles.section_footer}>
-                    <img src={Logo} id={styles.footer_logo_utb} />
-
+                    <img src={Logo} id={styles.footer_logo_utb} alt="Logo UTB" />
                     <p>
                         Universidad Tecnológica de Bolívar – 2017 Institución de
                         Educación Superior sujeta a inspección y vigilancia por el
@@ -29,11 +27,11 @@ export default function FooterUtb() {
                         Jurídica a la Universidad Tecnológica de Bolívar
                     </p>
                     <ul className="social-icons" id={styles.ul_footer}>
-                        <li className={styles.icon} id={styles.li_footer}><a href="#"><img src={LogoLinkedin} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
-                        <li className={styles.icon} id={styles.li_footer}><a href="#"><img src={LogoTwitter} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
-                        <li className={styles.icon} id={styles.li_footer}><a href="#"><img src={LogoInstagram} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
-                        <li className={styles.icon} id={styles.li_footer}><a href="#"><img src={LogoFacebook} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
-                        <li className={styles.icon} id={styles.li_footer}><a href="#"><img src={LogoYoutube} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
+                        <li className={styles.icon} id={styles.li_footer}><a href="click"><img src={LogoLinkedin} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
+                        <li className={styles.icon} id={styles.li_footer}><a href="click"><img src={LogoTwitter} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
+                        <li className={styles.icon} id={styles.li_footer}><a href="click"><img src={LogoInstagram} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
+                        <li className={styles.icon} id={styles.li_footer}><a href="click"><img src={LogoFacebook} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
+                        <li className={styles.icon} id={styles.li_footer}><a href="click"><img src={LogoYoutube} alt="Logo de Instagram" className={styles.icon_logo}></img></a></li>
                     </ul>
                 </section>
                 <section className={styles.section_footer_2}>
@@ -121,7 +119,6 @@ export default function FooterUtb() {
                             Preguntas frecuentes
                         </b>
                     </p>
-
                 </section>
             </Container>
         </footer>

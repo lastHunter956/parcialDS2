@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
-//import from1 from './components/from1.jsx'
 import "bootstrap/dist/css/bootstrap.min.css";
+import BarraNav from './components/BarraNav.js';
+import FooterUtb from './components/FooterUtb.js';
 import Personas from './imagenes/img_center_donacion.png';
 import './Donaciones.css';
 import Controlado from "./components/checkoutForm/Controlado.jsx";
@@ -9,8 +10,9 @@ import { Container } from 'react-bootstrap';
 export default function Donaciones() {
   return (
     <div>
+      <BarraNav />
       <Fragment>
-        <img src={Personas} class="img-fluid" ></img>
+        <img src={Personas} class="img-fluid" alt="personas"></img>
 
         <div className="primer_texto">
           <Container>
@@ -57,15 +59,10 @@ export default function Donaciones() {
                 <Controlado />
               </Container>
             </div>
-
           </div>
-
-
-
-
         </div>
-
       </Fragment>
+      <FooterUtb />
     </div>
   )
 }
