@@ -3,19 +3,21 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import "../App.css";
 import Flecha from '../iconos/flecha-hacia-abajo-para-navegar.png';
-import Equipo from '../imagenes/image-asuntos-profesorales.jpg';
+import BarraNav from './BarraNav';
+import FooterUtb from './FooterUtb';
 import styles from "./Contenido.module.css";
 
 export default function Contenido() {
     return (
         <div>
+            <BarraNav />
             <div id={styles.div_86px}></div>
             <div id={styles.Personas_inicio}>
                 <a href="#contenido_texto" id={styles.link_inicio}>
                     <h1 id={styles.Titulos_inicio}>SE PARTE DE LA INNOVACIÓN</h1>
                 </a>
                 <a href="#contenido_texto" id={styles.link_inicio}>
-                    <img src={Flecha} id={styles.flecha_inicio} />
+                    <img src={Flecha} id={styles.flecha_inicio} alt="Flecha"/>
                 </a>
             </div>
             <Container>
@@ -53,6 +55,7 @@ export default function Contenido() {
                     </p>
                 </div>
             </Container>
+            <FooterUtb />
         </div >
     )
 }

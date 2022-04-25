@@ -9,11 +9,9 @@ import reportWebVitals from './reportWebVitals';
 */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
   <React.StrictMode>
-
     <Auth0Provider domain="lasthunter956.jp.auth0.com" clientId="2uZvYzojd0SJq0yQ6zgSYcqpjqAf4Q7M" redirectUri={window.location.origin}>
-      <App />
+      <App /> 
     </Auth0Provider>
   </React.StrictMode>
 );
